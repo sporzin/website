@@ -381,7 +381,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (11:20) {#each socials as social}
+    // (19:10) {#each socials as social}
     function create_each_block$1(ctx) {
     	let a;
     	let i;
@@ -390,12 +390,12 @@ var app = (function () {
     		c: function create() {
     			a = element("a");
     			i = element("i");
-    			attr_dev(i, "class", /*social*/ ctx[0].logo);
-    			add_location(i, file$2, 11, 85, 695);
+    			attr_dev(i, "class", (/*social*/ ctx[0].logo, 'social-icons'));
+    			add_location(i, file$2, 20, 15, 714);
     			attr_dev(a, "title", /*social*/ ctx[0].name);
     			attr_dev(a, "href", /*social*/ ctx[0].url);
     			attr_dev(a, "target", "_blank");
-    			add_location(a, file$2, 11, 24, 634);
+    			add_location(a, file$2, 19, 12, 642);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, a, anchor);
@@ -411,7 +411,7 @@ var app = (function () {
     		block,
     		id: create_each_block$1.name,
     		type: "each",
-    		source: "(11:20) {#each socials as social}",
+    		source: "(19:10) {#each socials as social}",
     		ctx
     	});
 
@@ -527,73 +527,73 @@ var app = (function () {
     			t14 = space();
     			h61 = element("h6");
     			a6 = element("a");
-    			a6.textContent = "pouyababaie@gmail.com";
+    			a6.textContent = "pouyababaie123@gmail.com";
     			attr_dev(div0, "class", "col-auto col-sm-4 header-social-icon text-start d-sm-flex d-none border-0 p-0");
-    			add_location(div0, file$2, 9, 16, 472);
+    			add_location(div0, file$2, 15, 8, 483);
     			if (!src_url_equal(img.src, img_src_value = "images/logo.jpg")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "class", "default-logo");
     			attr_dev(img, "alt", "Sporzin");
-    			add_location(img, file$2, 15, 20, 905);
+    			add_location(img, file$2, 29, 10, 954);
     			attr_dev(a0, "class", "col-auto col-sm-4 navbar-brand padding-15px-tb px-0");
     			attr_dev(a0, "href", "/");
     			attr_dev(a0, "title", "Sporzin");
-    			add_location(a0, file$2, 14, 16, 796);
-    			add_location(span0, file$2, 20, 28, 1266);
-    			add_location(span1, file$2, 21, 28, 1308);
-    			add_location(span2, file$2, 22, 28, 1350);
-    			add_location(span3, file$2, 23, 28, 1392);
+    			add_location(a0, file$2, 24, 8, 816);
+    			add_location(span0, file$2, 36, 14, 1283);
+    			add_location(span1, file$2, 37, 14, 1306);
+    			add_location(span2, file$2, 38, 14, 1329);
+    			add_location(span3, file$2, 39, 14, 1352);
     			attr_dev(a1, "href", "javascript:void(0);");
     			attr_dev(a1, "class", "push-button ");
-    			add_location(a1, file$2, 19, 24, 1186);
+    			add_location(a1, file$2, 35, 12, 1217);
     			attr_dev(div1, "class", "header-push-button");
-    			add_location(div1, file$2, 18, 20, 1129);
+    			add_location(div1, file$2, 34, 10, 1172);
     			attr_dev(div2, "class", "col-auto col-sm-4 d-flex align-items-center justify-content-end text-extra-dark-gray p-0");
-    			add_location(div2, file$2, 17, 16, 1006);
+    			add_location(div2, file$2, 31, 8, 1040);
     			attr_dev(div3, "class", "col-12 mx-lg-auto text-center d-flex align-items-center justify-content-between md-padding-15px-tb");
-    			add_location(div3, file$2, 8, 12, 343);
+    			add_location(div3, file$2, 12, 6, 347);
     			attr_dev(div4, "class", "container-fluid flex-wrap nav-header-container h-100px xs-h-80px");
-    			add_location(div4, file$2, 7, 8, 252);
+    			add_location(div4, file$2, 9, 4, 251);
     			attr_dev(nav, "class", "navbar no-sticky navbar-expand-lg navbar-light bg-white header-light header-reverse-scroll top-logo z-index-1 navbar-boxed");
-    			add_location(nav, file$2, 6, 4, 107);
+    			add_location(nav, file$2, 6, 2, 103);
     			attr_dev(i, "class", "feather icon-feather-x icon-extra-small");
-    			add_location(i, file$2, 33, 68, 1803);
+    			add_location(i, file$2, 52, 7, 1720);
     			attr_dev(a2, "href", "javascript:void(0);");
     			attr_dev(a2, "class", "close-menu text-white");
-    			add_location(a2, file$2, 33, 8, 1743);
+    			add_location(a2, file$2, 51, 4, 1653);
     			attr_dev(a3, "href", "index.html");
-    			add_location(a3, file$2, 40, 55, 2371);
+    			add_location(a3, file$2, 66, 41, 2294);
     			attr_dev(li0, "class", "menu-list-item");
-    			add_location(li0, file$2, 40, 28, 2344);
+    			add_location(li0, file$2, 66, 14, 2267);
     			attr_dev(a4, "href", "mailto:ribrea@icloud.com");
-    			add_location(a4, file$2, 42, 55, 2490);
+    			add_location(a4, file$2, 68, 16, 2387);
     			attr_dev(li1, "class", "menu-list-item");
-    			add_location(li1, file$2, 42, 28, 2463);
+    			add_location(li1, file$2, 67, 14, 2343);
     			attr_dev(ul, "class", "menu-list alt-font w-100 font-weight-500 letter-spacing-minus-2px");
-    			add_location(ul, file$2, 39, 24, 2237);
+    			add_location(ul, file$2, 63, 12, 2147);
     			attr_dev(div5, "class", "col-12 menu-list-wrapper menu-list-wrapper-small text-center text-md-start");
-    			add_location(div5, file$2, 37, 20, 2080);
+    			add_location(div5, file$2, 59, 10, 1991);
     			attr_dev(span4, "class", "margin-5px-bottom text-extra-large d-inline-block");
-    			add_location(span4, file$2, 48, 28, 2791);
+    			add_location(span4, file$2, 75, 14, 2633);
     			attr_dev(a5, "href", "mailto:ribrea@icloud.com");
     			attr_dev(a5, "class", "text-white text-decoration-line-bottom font-weight-500");
-    			add_location(a5, file$2, 49, 32, 2915);
-    			add_location(h60, file$2, 49, 28, 2911);
+    			add_location(a5, file$2, 79, 16, 2792);
+    			add_location(h60, file$2, 78, 14, 2771);
     			attr_dev(a6, "href", "mailto:pouyababaie@gmail.com");
     			attr_dev(a6, "class", "text-white text-decoration-line-bottom font-weight-500");
-    			add_location(a6, file$2, 50, 32, 3071);
-    			add_location(h61, file$2, 50, 28, 3067);
+    			add_location(a6, file$2, 86, 16, 3038);
+    			add_location(h61, file$2, 85, 14, 3017);
     			attr_dev(div6, "class", "alt-font margin-50px-top");
-    			add_location(div6, file$2, 47, 24, 2724);
+    			add_location(div6, file$2, 74, 12, 2580);
     			attr_dev(div7, "class", "col-12 d-none d-md-block");
-    			add_location(div7, file$2, 46, 20, 2661);
+    			add_location(div7, file$2, 73, 10, 2529);
     			attr_dev(div8, "class", "row g-0 align-items-center justify-content-center h-100 padding-7-rem-all xs-padding-3-rem-all");
-    			add_location(div8, file$2, 36, 16, 1951);
+    			add_location(div8, file$2, 56, 8, 1853);
     			attr_dev(div9, "class", "col-lg-12");
-    			add_location(div9, file$2, 35, 12, 1911);
+    			add_location(div9, file$2, 55, 6, 1821);
     			attr_dev(div10, "class", "row g-0 h-100");
-    			add_location(div10, file$2, 34, 8, 1871);
+    			add_location(div10, file$2, 54, 4, 1787);
     			attr_dev(div11, "class", "hamburger-menu hamburger-menu-big-font bg-extra-dark-gray w-25 xl-w-40 lg-w-45 md-w-50 sm-w-100 box-shadow-extra-large");
-    			add_location(div11, file$2, 32, 4, 1602);
+    			add_location(div11, file$2, 48, 2, 1509);
     			add_location(header, file$2, 4, 0, 64);
     		},
     		l: function claim(nodes) {
