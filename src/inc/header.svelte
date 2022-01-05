@@ -18,7 +18,7 @@
         >
           {#each socials as social}
             <a title={social.name} href={social.url} target="_blank"
-              ><i class={(social.logo, 'social-icons')} /></a
+              ><i class={social.logo} /></a
             >
           {/each}
         </div>
@@ -98,3 +98,9 @@
   </div>
   <!-- end hamburger menu popup -->
 </header>
+
+<style>
+  .social-icon {
+    font-size: x-large;
+  }
+</style>
